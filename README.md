@@ -1,4 +1,4 @@
-# vd-app
+# Programmed prototype
 https://digitalagency.martinelsborg.dk/
 #Miro board - Retrospective
 https://miro.com/app/board/uXjVPGNsdEw=/?share_link_id=889045135446
