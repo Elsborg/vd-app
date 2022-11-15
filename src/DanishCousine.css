@@ -1,0 +1,193 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    outline: 2.5px solid white;
+    outline-offset: -15px;
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #margin-img {
+    margin-top: 5rem;
+  }
+
+  .contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 2.5rem;
+  }
+
+  .contain img {
+    width: 70%;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+  }
+
+  
+
+
+  .stack-div {
+    position: absolute;
+    text-align: center;
+    width: 292px;
+    height: 80px;
+    left: 8.5%;
+    top: 12.5%;
+    background: #FFFFFF;
+    color: #022B52;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .bottom-btn {
+    position: absolute;
+    display: inline;
+    padding: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    margin: 0 1rem 2.5rem 1rem;
+    text-align: left;
+    width: 100px;
+    }
+    .arrowBtn {
+        text-align: left;
+        padding-right:1.8rem;
+    }
+
+
+    #coverCities {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 15px;
+        margin-top: 6rem;
+    }
+    
+    #coverCities > img{
+        max-width: 180px; 
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .centeredLeft {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+      }
+    
+      .centeredRight {
+        position: absolute;
+        top: 20%;
+        right: 25%;
+        transform: translate(50%, -50%);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+      }
+    
+      .bottomLeft {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+      }
+    
+      .bottomRight {
+        position: absolute;
+        top: 75%;
+        right: 25%;
+        transform: translate(50%, -50%);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+      }
+
+      .imgCafe {
+        width: 100%;
+      }
+
+      .cardContainer {
+        text-align: center;
+        background-color: #00587A;
+        padding: 1rem;
+        margin: 4rem;
+        color: white;
+        font-size: 18px;
+      }
+
+      .cardText {
+        font-size: 10px;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+      }
+
+      .centerText {
+        text-align: center;
+      }
+
+      #sticky {
+        position: relative;
+        display: inline;
+        padding: 0.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: red;
+        color: white;
+        right: 0px;
+        bottom: 0px;
+        border: none;
+        margin: 0 1rem 2.5rem 17rem;
+        text-align: left;
+        width: 100px;
+      }

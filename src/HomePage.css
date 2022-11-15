@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url(./Images/lighthouse.jpg);
+    background-size: cover;
+    background-position: top;
+    min-height: 100%;
+    height: 100vh;
+    position: relative;
+    outline: 2.5px solid white;
+    outline-offset: -15px;
+}
+
+.vertical-center {
+    text-align: center;
+  }
+
+.home-button {
+    margin: 0 auto;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 225px;
+}
+
+
+.arrow {
+    font-weight: bold;
+    padding-left: 55px;
+}
+
+.headline {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50px;
+    line-height: 1.7rem;
+    
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo-bot {
+ width: 200px;
+}
+
+.bottom-logo {
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
